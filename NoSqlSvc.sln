@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSqlSvc", "NoSqlSvc\NoSqlSvc.csproj", "{02C26832-D1B1-493F-B250-4418828073D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSqlSvc.Tests", "NoSqlSvc.Tests\NoSqlSvc.Tests.csproj", "{32CC494A-5CAC-41CC-9474-1084018A9D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSqlWeb", "NoSqlWeb\NoSqlWeb.csproj", "{2A87A487-B0B1-45CF-A741-CA9BEC1E2A45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C26832-D1B1-493F-B250-4418828073D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C26832-D1B1-493F-B250-4418828073D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C26832-D1B1-493F-B250-4418828073D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C26832-D1B1-493F-B250-4418828073D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CC494A-5CAC-41CC-9474-1084018A9D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CC494A-5CAC-41CC-9474-1084018A9D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CC494A-5CAC-41CC-9474-1084018A9D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CC494A-5CAC-41CC-9474-1084018A9D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A87A487-B0B1-45CF-A741-CA9BEC1E2A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A87A487-B0B1-45CF-A741-CA9BEC1E2A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A87A487-B0B1-45CF-A741-CA9BEC1E2A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A87A487-B0B1-45CF-A741-CA9BEC1E2A45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

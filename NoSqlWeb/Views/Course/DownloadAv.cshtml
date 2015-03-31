@@ -1,0 +1,19 @@
+﻿
+
+@{
+    ViewBag.Title = "DownloadAv";
+}
+
+<h2>DownloadAv</h2>
+@if (ViewBag.AvType == "video")
+{
+    <video controls>
+        <source src="@Url.Action("GetAv", new {id = @ViewBag.Id})" type="video/mp4">
+    
+        Your browser does not support the video tag.
+    </video>
+}
+else
+{
+    <img src="@Url.Action("GetAv", new {id = @ViewBag.Id})"/>
+}
